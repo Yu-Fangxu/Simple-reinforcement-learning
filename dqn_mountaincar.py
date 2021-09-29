@@ -5,7 +5,7 @@ import gym
 import torch.nn.functional as F
 import random
 import argparse
-
+### dqn/ ddqn play mountaincar
 parser = argparse.ArgumentParser()
 parser.add_argument('--epochs', '-e', type=int, default=1000)
 parser.add_argument('--gamma', '-b' , default=0.9)
